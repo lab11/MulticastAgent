@@ -1,5 +1,5 @@
 all:
-	javac MultcastSocketAgent.java
+	javac MulticastSocketAgent.java
 
 run:
 	java -Djava.net.preferIPv4Stack=true MulticastSocketAgent
